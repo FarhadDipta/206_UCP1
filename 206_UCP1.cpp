@@ -1,3 +1,15 @@
+/*
+    1. - dia akan membandingkan dari terbesar ke yang terkecil
+    - apabila elemen pertama lebih besar dari elemen kedua dia akan berganti posisi dan terus bergeser ke elemen 2-3,3-4,4-5 dst
+    - ini akan berulang sampai berurut dari elemen yang terbesar sampai terkecil
+
+    2. - dia akan membandingkan dari terkecil hingga ke terbesar 
+    - harus dibagi ke  3 list
+    - apabila elemen pertama lebih kecil dari elemen kedua dia akan berganti posisi dan terus bergeser ke elemen 2-3,3-4,4-5 dst
+    - jika dari ke-3 list sudah berurut dari yang terkecil yang ke terbesar maka dia harus digabungkan
+    
+    3. - tidak ada yang bisa dipilih karena dia akan melewati jika semua sudah berurutan
+*/
 #include <iostream>
 using namespace std;
 
