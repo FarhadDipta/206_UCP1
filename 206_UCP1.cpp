@@ -8,7 +8,7 @@
     - apabila elemen pertama lebih kecil dari elemen kedua dia akan berganti posisi dan terus bergeser ke elemen 2-3,3-4,4-5 dst
     - jika dari ke-3 list sudah berurut dari yang terkecil yang ke terbesar maka dia harus digabungkan
     
-    3. - tidak ada yang bisa dipilih karena dia akan melewati jika semua sudah berurutan
+    3. - menggunakan inserction sort, karena berurutan dari terkecil hingga terbesar
 */
 #include <iostream>
 using namespace std;
